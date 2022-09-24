@@ -4,15 +4,25 @@ import javax.swing.*;
 import java.util.jar.JarOutputStream;
 
 public class Exec2 {
-    public static void main(String[] args) {
-        //Declarar variável do tipo texto varPalavra;
-        String palavra;
-        // varPalavra = Ler (“Curso”);
-        palavra = JOptionPane.showInputDialog("Digite sua palavra aqui");
-        //Exibir: “A palavra é: ” + varPalavra;
-            System.out.println("A palavra é:" + palavra);
+//    public static void main(String[] args) {
+//        //Declarar variável do tipo texto varPalavra;
+//        String palavra;
+//        // varPalavra = Ler (“Curso”);
+//        palavra = JOptionPane.showInputDialog("Digite sua palavra aqui");
+//        //Exibir: “A palavra é: ” + varPalavra;
+//            System.out.println("A palavra é:" + palavra);
+//    }
+//}
+
+    public String exibirPalavra(String palavra) {
+        return ("A palavra é:" + palavra);
     }
 }
+
+
+
+
+
 
 
 
