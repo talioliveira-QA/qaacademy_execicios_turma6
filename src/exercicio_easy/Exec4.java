@@ -14,7 +14,7 @@ public class Exec4 {
 //    }
     public String dobroNum (int num){
         int result= num*2;
-        return "O dobro é:"+ result;
+        return "O dobro é: "+ result;
     }
 }
 

@@ -16,7 +16,7 @@ public class Exec3 {
 //        System.out.println("O nome é: "+sobrenome+" "+nome);
 //    }
     public String nomeSobrenome(String nome, String sobrenome) {
-        return sobrenome + nome;
+        return sobrenome+" "+ nome;
     }
 }
 
