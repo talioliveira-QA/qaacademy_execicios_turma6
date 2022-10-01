@@ -10,6 +10,8 @@ public class execucao {
 
     public static void main(String[] args) {
 
+        Exec11 exec11 = new Exec11();
+        System.out.println(exec11.somaMais2CemVezes(10));
 
 
 //        Exec10OPTION1 exe10 = new Exec10OPTION1();
@@ -20,9 +22,8 @@ public class execucao {
 //        OBS: FAZER NA SALA DE AULA
 
 
-        Exec8OPTION2 exec8 = new Exec8OPTION2();
-        double salario = 3400.00;
-        System.out.println(exec8.calculo(salario));
+//        Exec8OPTION2 exec8 = new Exec8OPTION2();
+//        System.out.println(exec8.calculo(2400.00));
 
 
 //        Exec7 exec7 = new Exec7();

@@ -4,10 +4,9 @@ import javax.swing.*;
 import java.util.jar.JarOutputStream;
 
 public class Exe5M {
-    public void main(String[] args) {
-        int i = 1, anterior=0, numeroDigitado;
+    public void menorNumero (int numeroDigitado) {
+        int i = 1, anterior=0;
         while (i <= 5) {
-            numeroDigitado=Integer.parseInt(JOptionPane.showInputDialog("Digite um numero"));
             if (numeroDigitado < anterior || i == 1) {
                 anterior = numeroDigitado;
             }
@@ -39,3 +38,5 @@ public class Exe5M {
 //Fim Enquanto
 //Exibir (“O menor digitado é: ”+anterior);
 //Fim Algoritmo
+
+//    Faça um algoritmo para ler 5 números, verificar e exibir, quais dos 5 números digitados, é o menor.

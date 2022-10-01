@@ -6,7 +6,7 @@ import java.util.jar.JarOutputStream;
 public class Exec8OPTION2 {
     public String calculo(double salario) {
         double ir=0;
-        if (salario >= 0 && salario <= 1903.98) {
+        if (salario > 0 && salario <= 1903.98) {
             return "ISENTO";
         } else {
             if (salario >= 1903.99 && salario <= 2826.65) {
@@ -20,15 +20,15 @@ public class Exec8OPTION2 {
             if (salario >= 3751.06 && salario <= 4664.68) {
                 ir = (salario * 0.225) - 636.13;
 //                return "Os valores são: BRUTO = " + salario + ", LÍQUIDO = " + (salario - ir2) + " e IMPOSTO DE RENDA = " + ir2;
-//            }
+           }
             if (salario > 4664.68) {
                 ir = (salario * 0.275) - 869.36;
 //                return "Os valores são: BRUTO = " + salario + "LÍQUIDO = " + (salario - ir3) + "IMPOSTO DE RENDA = " + ir3;
             }
         }
-        return "Os valores são: BRUTO = " + salario + "LÍQUIDO = " + (salario - ir) + "IMPOSTO DE RENDA = " + ir;
+        return "Os valores são: BRUTO = " + salario + "\n LÍQUIDO = " + (salario - ir) + "\n IMPOSTO DE RENDA = " + ir;
     }
-        return ;
+
 
 
 //    public static void main(String[] args) {
