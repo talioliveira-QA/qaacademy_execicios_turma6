@@ -8,13 +8,13 @@ public class Exec5 {
         return "A soma é:"+(num1 + num2 + num3);
     }
     public String subtracao(int num1, int num2, int num3) {
-        return "A subtração é:" + (num1 - num2 - num3);
+                return "A subtração é:" + (num1 - num2 - num3);
     }
     public String multiplicacao(int num1, int num2, int num3) {
-        return "A multiplicação é:" + (num1 * num2 * num3);
+                return "A multiplicação é:" + (num1 * num2 * num3);
     }
     public String media(int num1, int num2, int num3) {
-                      return "A media é:"+(num1+num2+num3)/3;
+        return "A media é:"+(num1+num2+num3)/3;
     }
 
 

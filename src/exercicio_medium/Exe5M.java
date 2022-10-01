@@ -4,7 +4,7 @@ import javax.swing.*;
 import java.util.jar.JarOutputStream;
 
 public class Exe5M {
-    public static void main(String[] args) {
+    public void main(String[] args) {
         int i = 1, anterior=0, numeroDigitado;
         while (i <= 5) {
             numeroDigitado=Integer.parseInt(JOptionPane.showInputDialog("Digite um numero"));
@@ -15,6 +15,18 @@ public class Exe5M {
         }
         System.out.println("O menor numero digitado é:"+anterior);
     }
+
+//    public static void main(String[] args) {
+//        int i = 1, anterior=0, numeroDigitado;
+//        while (i <= 5) {
+//            numeroDigitado=Integer.parseInt(JOptionPane.showInputDialog("Digite um numero"));
+//            if (numeroDigitado < anterior || i == 1) {
+//                anterior = numeroDigitado;
+//            }
+//            i++;
+//        }
+//        System.out.println("O menor numero digitado é:"+anterior);
+//    }
 }
 //Inicio Algoritmo
 //Declarar variável numérica: i = 1, anterior,numeroDigitado;
